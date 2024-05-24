@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #FCFCFC
+    ;
+
+}
+@font-face {
+    font-family: akira;
+    src: url(/fonts/Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-Light.ttf);
+}
+.intro{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Images/Intro-background.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 2000px 0 0 0 rgb(0, 0, 0, 0.3);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.intro .navigation-bar{
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navigation-bar h2{
+    font-family: akira;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: white;
+}
+.navigation-bar ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation-bar ul a{
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.navigation-bar ul a li{
+    list-style: none;
+    font-size: 14px;
+    font-family: poppins;
+    color: white;
+}
+.collab{
+    background-color:#E60F24;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.center-content-wrapper{
+    margin-top: 200px;
+    padding: 0px 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center-content-wrapper h1{
+    font-size: 80px;
+    font-family: akira;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.center-content-wrapper h5{
+    font-size: 20px;
+    font-family: poppins;
+    line-height: 35px;
+    margin-bottom: 40px;
+    color: #fff;
+
+}
+.scalemybrand{
+    background-color: #E60F24;
+    padding: 20px 100px;
+    font-size: 20px;
+    font-family: poppins;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.bottom-content-wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px
+}
+.bottom-content-wrapper .bcwr{
+    padding: 10px 40px;
+    border: solid 1px white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bcwr h3{
+    font-family: akira;
+    font-size: 40px;
+    margin: 0px 20px;
+    color: #fff;
+
+}
+.bcwr p{
+    font-family: poppins;
+    font-size: 14px;
+    color: #fff;
+
+}
+.animation-wrapper{
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.animation-slide-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.animation-slide-wrapper img{
+    width: 120px;
+}
+.unfungible-essence{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 100px;
+}
+.unfungible-essence h1{
+    font-family: akira;
+    font-size: 40px;
+    color: red;
+}
+.unfungible-essence article{
+    color: #5A5A5A;
+    width: 45%;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: poppins;
+}
+.essence-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+}
+.ewc-wrapper{
+    width: calc(48% - 120px);
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding:  40px 60px;
+    margin: 50px 0px;
+    height: 264px;
+    border: solid 1px #5A5A5A;
+    border-radius: 10px;
+}
+.icon-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: first baseline;
+    align-items: center;
+}
+.icon-header img{
+    height: 40px;
+}
+.icon-header h6{
+    font-size: 24px;
+    color: black;
+    margin: 0px 10px;
+    font-family: poppins;
+}
+.ewc-wrapper p{
+    color: #5A5A5A;
+    font-family: poppins;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.partners{
+    padding: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.partners h2{
+    color: #E60F24;
+    font-size: 48px;
+    font-family: akira;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.profiles-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.profiles{
+    width: 30%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: rgb(216, 215, 215) 0px 2px 0px ;
+    margin: 50px 0px;
+}
+.profiles img{
+    height: 486px;
+    width: 500px;
+}
+.profiles h3{
+    color: #000000;
+    font-size: 36px;
+    font-family: akira;
+    margin: 20px ;
+
+}
+.profiles h6{
+    color: #5A5A5A;
+    font-size: 24px;
+    font-family: akira;
+    margin: 20px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: first baseline;
+    margin: 20px;
+
+}
+.socials img{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.socials p{
+    font-size: 24px;
+    color: red;
+    font-family: poppins;
+    font-weight: 900;
+}
+.scaling-brand{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0px;
+    margin: 100px 0px;
+    background-image: url(/Images/Intro-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scaling-brand h2{
+    color: #ffffff;
+    font-size: 48px;
+    font-family: akira;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+.collab-two{
+    color: #E60F24;
+    background-color: #fff;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: poppins;
+    border-radius: 5px;
+    font-weight: 700;
+}
